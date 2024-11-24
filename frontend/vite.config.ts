@@ -20,7 +20,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:5000', // Proxy to your backend server
+        target: 'https://up-l6uu.onrender.com', // Proxy to your backend server
         changeOrigin: true,
         secure: false,
       },
